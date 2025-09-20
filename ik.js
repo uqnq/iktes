@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // true false ad
-    const ADS_ENABLED = true;
+    const ADS_ENABLED = false;
 
     if (!ADS_ENABLED) return;
 
@@ -45,3 +45,4 @@ document.addEventListener("DOMContentLoaded", function() {
     `;
     document.body.insertAdjacentHTML("beforeend", adHtml);
 });
+
