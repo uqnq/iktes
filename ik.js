@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 bottom: 0;
                 left: 0;
                 width: 100%;
-                height: 10px; /* tinggi pasti */
+                height: 30px; /* tinggi pasti */
                 background: #333;
                 color: #fff;
                 font-size: 13px;
@@ -40,4 +40,3 @@ document.addEventListener("DOMContentLoaded", function() {
     `;
     document.body.insertAdjacentHTML("beforeend", adHtml);
 });
-
