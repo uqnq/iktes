@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // true false ad
+    const ADS_ENABLED = true;
+
+    if (!ADS_ENABLED) return;
+
     const adHtml = `
         <style>
             .floating-ad {
@@ -6,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 bottom: 0;
                 left: 0;
                 width: 100%;
-                height: 30px; /* tinggi pasti */
+                height: 30px;
                 background: #333;
                 color: #fff;
                 font-size: 13px;
-                line-height: 30px; /* teks pas tengah */
+                line-height: 30px;
                 text-align: center;
                 z-index: 9999;
                 font-family: Arial, sans-serif;
